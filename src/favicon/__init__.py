@@ -3,9 +3,9 @@
 :copyright: (c) 2019 by Scott Werner.
 :license: MIT, see LICENSE for more details.
 """
-from .favicon import Icon, get
+from .favicon import Icon, get, tags
 
-__all__ = ["get", "Icon"]
+__all__ = ["get", "Icon", "tags"]
 
 __title__ = "favicon"
 __version__ = "0.7.0"
